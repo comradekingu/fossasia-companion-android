@@ -8,15 +8,15 @@
     <string name="close_menu">Close menu</string>
     <string name="last_update">DB last updated: %1$s</string>
     <string name="download_reminder_title">Update</string>
-    <string name="download_reminder_message">This will update the schedule database to the latest version. Make sure you are connected to the internet.</string>
+    <string name="download_reminder_message">This will update the schedule database to the latest version. Make sure you are connected to the Internet.</string>
     <string name="never">Never</string>
     <string name="update_events_db">Update events database</string>
     <string name="events_download_up_to_date">Database is already up-to-date</string>
     <string name="events_download_empty">No new events found</string>
 
     <plurals name="events_download_completed">
-        <item quantity="one">Completed downloading %1$d event</item>
-        <item quantity="other">Completed downloading %1$d events</item>
+        <item quantity="one">Downloaded %1$d event</item>
+        <item quantity="other">Downloaded %1$d events</item>
     </plurals>
 
     <!-- Main menu -->
@@ -41,9 +41,9 @@
 
     <!-- Live -->
     <string name="next">Next</string>
-    <string name="next_empty">During FOSSASIA, the events to come in the next 30 minutes will be shown here.</string>
+    <string name="next_empty">During FOSSASIA, events up the next 30 minutes are shown here.</string>
     <string name="now">Now</string>
-    <string name="now_empty">During FOSSASIA, the events in progress will be shown here.</string>
+    <string name="now_empty">During FOSSASIA, events in progress are shown here.</string>
 
     <!-- Track types -->
     <string name="other">Other</string>
@@ -61,19 +61,19 @@
 
     <!-- Errors -->
     <string name="error_title">Error</string>
-    <string name="event_not_found_error">Unable to load the session details.\nMake sure the database has been updated to the latest version.</string>
-    <string name="schedule_loading_error">An error occurred while updating the schedule. Please try again later.</string>
+    <string name="event_not_found_error">Could not load the session details.\nEnsure the database is updated to the latest version.</string>
+    <string name="schedule_loading_error">Could not update the schedule. Please try again later.</string>
     <string name="search_length_error">The minimum search text length is 3 chars.</string>
 
     <!-- Settings -->
     <string name="settings">Settings</string>
     <string name="settings_notifications">Notifications</string>
-    <string name="settings_notifications_enabled_title">Enable notifications</string>
-    <string name="settings_notifications_enabled_summary">If checked, this will notify you of bookmarked upcoming events</string>
+    <string name="settings_notifications_enabled_title">Notifications</string>
+    <string name="settings_notifications_enabled_summary">Notifies you of bookmarked upcoming events</string>
     <string name="settings_notifications_vibrate_title">Vibrate</string>
     <string name="settings_notifications_vibrate_summary">Vibrate on notification</string>
-    <string name="settings_notifications_led_title">Flash led</string>
-    <string name="settings_notifications_led_summary">Blink led on notification</string>
+    <string name="settings_notifications_led_title">Flash LED</string>
+    <string name="settings_notifications_led_summary">Blink LED for notifications</string>
     <string name="settings_notifications_delay_title">Notification time</string>
 
     <string-array name="settings_notifications_delay_entries">
@@ -99,7 +99,7 @@
     <string name="remove_bookmark">Remove from bookmarks</string>
     <string name="share">Share</string>
     <string name="add_to_agenda">Add to agenda</string>
-    <string name="calendar_not_found">No compatible calendar application found.</string>
+    <string name="calendar_not_found">Could not find any compatible calendar app.</string>
 
     <plurals name="speakers">
         <item quantity="one">Speaker</item>
@@ -117,7 +117,7 @@
     <string name="about">About</string>
     <string name="about_text">Programmed by <a href="http://www.digitalia.be/">Christophe Beyls</a> and <a href="https://github.com/fossasia/fossasia-companion-android/blob/master/README.md">FOSSASIA contributors</a>.
 \n
-\nLicensed under the Apache License, version 2.0. Source available on <a href="https://github.com/fossasia/fossasia-companion-android">GitHub</a>.
+\nLicensed Apache version 2.0. Source code available on <a href="https://github.com/fossasia/fossasia-companion-android">GitHub</a>.
 \n
 \nPlease report all the issues in <a href="https://github.com/fossasia/fossasia-companion-android/issues/new">Github Repository Issue Tracker</a>.
 \n
